@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "api/v1/info",
+      "route": "api/v1/moreinfo",
       "methods": [
         "get"
       ]
@@ -17,5 +17,5 @@
     }
   ],
   "scriptFile": "../dist/main.js",
-  "entryPoint": "InfoFunction"
+  "entryPoint": "MoreInfoFunction"
 }
